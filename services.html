@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services | Kpop Website</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+      color: #a0d2eb ;
+      padding: 40px;
+    background-color:#845bb3;
+    }
+    /* Services section styles */
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 50px 0;
+    }
+    .service {
+      width: 300px;
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #a0d2eb;
+      border-radius: 5px;
+      text-align: center;
+      background-color: #a0d2eb;
+    }
+    .service h2 {
+      margin-top: 0;
+    }
+    .service p {
+      margin-bottom: 0;
+    }
+    /* Media queries */
+    @media screen and (max-width: 768px) {
+      .service {
+        width: 100%;
+      }
+    }
+
+    .back-button {
+      padding: 10px 20px;
+      background-color: #a0d2eb;
+      color: rgba(0, 0, 0, 0.933);
+      display: inline-block;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .back-button:hover {
+      background-color: #845bb3;
+    }
+
+  </style>
+</head>
+<body background="3.PNG">
+
+  <h1>Our Services</h1>
+  <div class="services">
+    <div class="service">
+      <h2>Concerts</h2>
+      <p>We organize and promote Kpop concerts around the world.</p>
+    </div>
+    <div class="service">
+      <h2>Merchandise</h2>
+      <p>We sell official Kpop merchandise, including albums, posters, and clothing.</p>
+    </div>
+    <div class="service">
+      <h2>Artist Management</h2>
+      <p>We manage and represent Kpop artists, helping them to reach a global audience.</p>
+    </div>
+  </div>
+  <a href="#" onclick="history.back();" class="back-button">Back</a>
+</body>
+</html>
